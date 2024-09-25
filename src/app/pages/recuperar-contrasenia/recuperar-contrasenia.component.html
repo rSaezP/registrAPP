@@ -1,3 +1,20 @@
-<p>
-  recuperar-contrasenia works!
-</p>
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Restablecer Contraseña</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="container">
+    <h2>Recuperar Contraseña</h2>
+    <form (ngSubmit)="recoverPassword()">
+      <ion-item>
+        <ion-label position="floating">Nombre de Usuario</ion-label>
+        <ion-input type="text" [(ngModel)]="username" name="username" required></ion-input>
+      </ion-item>
+      <ion-button expand="block" type="submit" class="recover-button">RECUPERAR</ion-button>
+    </form>
+  </div>
+</ion-content>
+
+

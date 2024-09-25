@@ -1,0 +1,17 @@
+.cabecera {
+  display: flex;          /* Habilita Flexbox en el contenedor */
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+  align-items: center;   /* Alinea verticalmente los elementos en el centro */
+  padding: 0 20px;       /* Añade algo de espacio en los laterales (opcional) */
+  background-color: #b9b8b8; /* Fondo opcional para visibilidad */
+}
+
+.cabecera h1 {
+  margin: 0; /* Elimina el margen predeterminado del h1 */
+  color: black;
+}
+
+.cabecera img {
+  height: 40px; /* Ajusta la altura del logo según sea necesario */
+  width: auto;  /* Mantiene la proporción del logo */
+}

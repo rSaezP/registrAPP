@@ -1,8 +1,15 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { AppComponent } from './app/app.component';
 import { importProvidersFrom } from '@angular/core';
-import { AppModule } from './app/app.module';
+import { AppComponent } from './app/app.component';
+import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
+import { RouteReuseStrategy } from '@angular/router';
+import { provideRouter } from '@angular/router';
+import { routes } from './app/app.routes'; // Asegúrate de que tus rutas estén bien configuradas
 
 bootstrapApplication(AppComponent, {
-  providers: [importProvidersFrom(AppModule)]
+  providers: [
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    importProvidersFrom(IonicModule.forRoot({})), // Importa el módulo de Ionic
+    provideRouter(routes), // Define tus rutas
+  ],
 });

@@ -19,7 +19,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'recuperar-contrasena',
+    path: 'recuperar-contrasenia',
     component: RecuperarContraseniaComponent
   },
   {
@@ -30,8 +30,9 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
+    RouterModule.forRoot(routes, { preloadingStrategy: null})
   ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
