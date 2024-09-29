@@ -1,3 +1,40 @@
-<p>
-  asig-alumno works!
-</p>
+<ion-header>
+  <div class="toolbar-container">
+    <ion-toolbar>
+      <ion-title>{{ asignatura }}</ion-title>
+    </ion-toolbar>
+  </div>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="detalle-asignatura">
+    <br>
+    <h2>Detalles de la asignatura:<br><br> <u>{{ asignatura }}</u>
+      <h4>Sala: T3-425</h4>
+    </h2>
+    <div class="imagen-asignatura">
+      <img src="assets/img/escritorios.png" alt="Imagen de la asignatura" />
+    </div>
+    <br>
+    <p>📆Fecha: 29/09/2024</p>
+    <p>⏰Hora: 10:00 AM</p>
+
+    <br>
+    <ion-button expand="block" (click)="simularEscanearQR()">Escanear Código QR</ion-button>
+
+  </div>
+  <br>
+  <br>
+  <div class="buttons-row">
+    <div class="button-container">
+      <ion-button expand="block" (click)="volver()">Volver</ion-button>
+    </div>
+    <div class="button-container-2">
+      <ion-button expand="block" (click)="logout()">Cerrar sesión</ion-button>
+    </div>
+  </div>
+
+</ion-content>
+<app-footer>
+
+</app-footer>
