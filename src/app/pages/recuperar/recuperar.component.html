@@ -1,29 +1,52 @@
+<ion-header></ion-header>
 <ion-content class="ion-padding" fullscreen>
-  <app-header></app-header>
-  <div class="container">
+<div class="container"></div>
     <div id="form">
-      <form>
+      <form (ngSubmit)="enviarSolicitud()">
         <br>
+
 
         <!-- Logo centrado (ajusta la ruta de la imagen si es necesario) -->
         <div class="logo-container">
           <img src="assets/img/logo.png" class="logo">
         </div>
         <br>
-
-        <!-- Campo de Usuario -->
+        <!-- Campo de Email -->
         <p style="color: rgb(240, 200, 21);">Email</p>
         <ion-item lines="none" class="input-wrapper">
-          <ion-input type="text" placeholder="Ingrese su email" name="email" required></ion-input>
+          <ion-input
+            type="email"
+            placeholder="Ingrese su email"
+            [(ngModel)]="email"
+            name="email"
+            required>
+          </ion-input>
         </ion-item>
+
+        <!-- Mensaje de error si el email no es válido -->
+        <div *ngIf="errorMessage" style="color: red; margin-top: 10px;">
+          {{ errorMessage }}
+        </div>
+
+          <!-- Mostrar mensaje de éxito cuando la solicitud se envíe correctamente -->
+          <div *ngIf="successMessage" style="color: green; margin-top: 10px;">
+            {{ successMessage }}
+          </div>
+
         <br>
 
-        <!-- Botón de Iniciar Sesión -->
-        <ion-button expand="block" class="btn-info" [routerLink]="['/login']">Enviar Solicitud</ion-button>
+        <!-- Botón de Enviar Solicitud -->
+        <ion-button expand="block" class="btn-info" type="submit">
+          Enviar Solicitud
+        </ion-button>
 
         <br>
       </form>
     </div>
-  </div>
-  <app-footer></app-footer>
+
+
+
+
 </ion-content>
+
+<ion-footer></ion-footer>
