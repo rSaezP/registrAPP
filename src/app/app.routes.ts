@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
+<<<<<<< HEAD
     path: 'home',
     loadComponent: () => import('./pages/home/home.component').then((m) => m.HomeComponent),
   },
@@ -12,14 +13,21 @@ export const routes: Routes = [
   {
     path: 'recuperar-contrasenia',
     loadComponent: () => import('./pages/recuperar-contrasenia/recuperar-contrasenia.component').then((m) => m.RecuperarContraseniaComponent),
+=======
+    path: '',
+    loadChildren: () => import('./pages/pages.module').then((m) => m.PagesModule),
+>>>>>>> master
   },
   {
     path: '',
     redirectTo: 'login',
     pathMatch: 'full',
   },
+<<<<<<< HEAD
   {
     path: '**',
     redirectTo: 'login',
   },
+=======
+>>>>>>> master
 ];

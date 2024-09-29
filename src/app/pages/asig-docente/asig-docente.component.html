@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{ asignatura }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="detalle-asignatura">
+    <h2>Detalles de la asignatura: {{ asignatura }}</h2>
+    <p>Fecha: 29/09/2024</p>
+    <p>Hora: 10:00 AM</p>
+
+    <ion-button expand="block" (click)="simularGenerarQR()">Generar Código QR</ion-button>
+    <ion-button (click)="volver()">Volver</ion-button>
+    <ion-button (click)="logout()">Cerrar sesión</ion-button>
+  </div>
+</ion-content>
