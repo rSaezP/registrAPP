@@ -1,5 +1,6 @@
 /* Fondo azul */
 ion-content {
+<<<<<<< HEAD
   --background: #ffffff;
 }
 
@@ -105,3 +106,79 @@ border-radius: 5px;
   max-width: 350px;             
   margin: 0 auto;               
 }
+=======
+    --background: #fffcd2;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  #form {
+    background-color: #042d54c9;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  p {
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    padding-left: 8px;
+  }
+
+  /* Inputs personalizados */
+  .input-wrapper {
+    margin-bottom: 16px;
+  }
+
+  ion-item {
+    --inner-padding-start: 0px;
+    --padding-end: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --highlight-color-focused: transparent;
+    --background: transparent;
+  }
+
+  ion-input {
+    --padding-start: 15px;
+    --background: #fffcd2;
+    --color: #1606aa;
+    --placeholder-color: #05035a;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 45px;
+  }
+
+  /* Botón de iniciar sesión */
+  .btn-info {
+    height: 30px;
+    font-size: 14px;
+    width: 60%;
+    margin: 0 auto;
+    --color:rgb(240, 200, 21);
+  }
+
+
+  /* Estilo del logo */
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893

@@ -1,6 +1,10 @@
 /* Fondo azul */
 ion-content {
+<<<<<<< HEAD
     --background: #ffffff;
+=======
+    --background: #fffcd2;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
   }
   
   .container {
@@ -8,8 +12,11 @@ ion-content {
     justify-content: center;
     align-items: center;
     height: 100%;
+<<<<<<< HEAD
     background-color: #042d54;
     border-radius: 10px;
+=======
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
   }
   
   #form {
@@ -18,7 +25,11 @@ ion-content {
     border-radius: 5px;
     width: 100%;
     max-width: 350px;
+<<<<<<< HEAD
     
+=======
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
   }
   
   p {
@@ -44,23 +55,33 @@ ion-content {
   
   ion-input {
     --padding-start: 15px;
+<<<<<<< HEAD
     --background: white;
     --color: #042d54;
     --placeholder-color: #000000;
     --placeholder-font-weight: bold;
     border-radius: 5px;
+=======
+    --background: #fffcd2;
+    --color: #1606aa;
+    --placeholder-color: #05035a;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
     border: 1px solid #ccc;
     padding-left: 15px;
     padding-right: 15px;
     height: 45px;
+<<<<<<< HEAD
     font-weight:bold;
     font-size: 16px;
     --border-radius:5px;
 
+=======
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
   }
   
   /* Botón de iniciar sesión */
   .btn-info {
+<<<<<<< HEAD
     --background: rgb(240, 200, 21);
   --color: #042d54c9;
   --border-radius: 5px;
@@ -77,6 +98,13 @@ ion-content {
     display: flex;
     justify-content: center;  /* Centra horizontalmente */
     align-items: center;      /* Centra verticalmente */         /* Altura del contenedor al 100% de la vista */
+=======
+    height: 40px;
+    font-size: 14px;
+    width: 60%;
+    margin: 0 auto;
+    --color:rgb(240, 200, 21);
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
   }
   
   .forgot-password {
@@ -92,6 +120,7 @@ ion-content {
   }
   
   .logo {
+<<<<<<< HEAD
     height: auto;
     width: auto;
     margin-bottom: -100px;
@@ -103,3 +132,10 @@ ion-content {
     color:rgb(240, 200, 21);
     padding-left: 20px;
   }
+=======
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+  
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893

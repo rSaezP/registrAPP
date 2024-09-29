@@ -1,20 +1,32 @@
 /* Estilos generales */
 ion-content {
+<<<<<<< HEAD
   --background: white ;
+=======
+  --background: #fffcd2;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
 }
 
 /* Estilos para la información del alumno */
 .alumno-info {
   text-align: center;
   margin-top: 20px;
+<<<<<<< HEAD
   background-color: rgb(255 255 255);
+=======
+  background-color: #042d54c9;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
   padding: 20px;
   border-radius: 5px;
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
+<<<<<<< HEAD
   box-shadow: 0 2px 12px rgb(255 255 255);
   border: 3px solid #042d54c9;
+=======
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
 }
 
 .avatar {
@@ -22,11 +34,19 @@ ion-content {
   height: 100px;
   border-radius: 50%;
   margin-bottom: 10px;
+<<<<<<< HEAD
+=======
+  border: 3px solid #fffcd2;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
 }
 
 .alumno-info h2,
 .alumno-info p {
+<<<<<<< HEAD
   color: #042d54c9;
+=======
+  color: #fffcd2;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
   margin: 5px 0;
 }
 
@@ -39,6 +59,7 @@ ion-list {
 }
 
 ion-item {
+<<<<<<< HEAD
   
   --background: #042d54c9 ;
   --color: #ffffff;
@@ -69,6 +90,21 @@ ion-button {
   padding: 5px;
   background-color: rgba(224, 186, 14, 0.877) ;
   border-radius: 5px;
+=======
+  --background: #042d54c9;
+  --color: #fffcd2;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Estilos para los botones */
+ion-button {
+  --background: #042d54c9;
+  --color: rgb(240, 200, 21);
+  --border-radius: 5px;
+  --padding-start: 15px;
+  --padding-end: 15px;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
 }
 
 /* Estilos para el encabezado y pie de página */

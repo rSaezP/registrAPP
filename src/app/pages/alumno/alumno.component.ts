@@ -12,7 +12,10 @@ export class AlumnoComponent implements OnInit {
   nombreAlumno: string = '';
   email: string = '';
   telefono: string = '';
+<<<<<<< HEAD
   rol: string='';
+=======
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
 
   constructor(private authService: AuthService, private router: Router) {}
 
@@ -22,7 +25,10 @@ export class AlumnoComponent implements OnInit {
         this.nombreAlumno = usuario.nombreCompleto;
         this.email = usuario.email;
         this.telefono = usuario.telefono;
+<<<<<<< HEAD
         this.rol= usuario.rol;
+=======
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
       }
     });
   }

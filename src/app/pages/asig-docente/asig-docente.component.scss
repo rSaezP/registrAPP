@@ -1,17 +1,27 @@
 ion-content {
+<<<<<<< HEAD
     --background: #ffffff;
+=======
+    --background: #fffcd2;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
   }
   
   .detalle-asignatura {
     text-align: center;
+<<<<<<< HEAD
     margin-top: 80px;
     background-color: #042d54;
+=======
+    margin-top: 20px;
+    background-color: #042d54c9;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
     padding: 20px;
     border-radius: 5px;
     max-width: 350px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
     border: 3px  #042d54c9;
     --background: #042d54c9 ;
     --color: #ffffff;
@@ -19,10 +29,13 @@ ion-content {
   font-weight: bold;
   font-size: 25px;
   padding: 5px;    
+=======
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
   }
   
   .detalle-asignatura h2,
   .detalle-asignatura p {
+<<<<<<< HEAD
     color: #ffffff;
     margin: 5px 0;
     font-weight: bold;
@@ -68,3 +81,17 @@ ion-content {
   width: 200px;            /* Mantiene la proporción de la imagen */
   border-radius: 8px;      /* Añade bordes redondeados si lo deseas */
 }
+=======
+    color: #fffcd2;
+    margin: 5px 0;
+  }
+  
+  ion-button {
+    --background: #042d54c9;
+    --color: rgb(240, 200, 21);
+    --border-radius: 5px;
+    --padding-start: 15px;
+    --padding-end: 15px;
+  }
+ 
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
