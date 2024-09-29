@@ -1,5 +1,6 @@
 /* Estilos generales */
 ion-content {
+<<<<<<< HEAD
   --background: white ;
 }
 
@@ -22,36 +23,79 @@ ion-header {
       margin-left: 16px; /* Opcional: agregar un margen izquierdo */
     }
   }
+=======
+<<<<<<< HEAD
+  --background: white ;
+=======
+  --background: #fffcd2;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
 }
 
 /* Estilos para la información del alumno */
 .alumno-info {
   text-align: center;
+<<<<<<< HEAD
   background-color: rgb(255 255 255);
+=======
+  margin-top: 20px;
+<<<<<<< HEAD
+  background-color: rgb(255 255 255);
+=======
+  background-color: #042d54c9;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
   padding: 20px;
   border-radius: 5px;
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
+<<<<<<< HEAD
   box-shadow: 0 2px 12px #042d54;
 
+=======
+<<<<<<< HEAD
+  box-shadow: 0 2px 12px rgb(255 255 255);
+  border: 3px solid #042d54c9;
+=======
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
 }
 
 .avatar {
   width: 100px;
   height: 100px;
+<<<<<<< HEAD
   margin-bottom: 10px;
+=======
+  border-radius: 50%;
+  margin-bottom: 10px;
+<<<<<<< HEAD
+=======
+  border: 3px solid #fffcd2;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
 }
 
 .alumno-info h2,
 .alumno-info p {
+<<<<<<< HEAD
   color: #042d54c9;
+=======
+<<<<<<< HEAD
+  color: #042d54c9;
+=======
+  color: #fffcd2;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
   margin: 5px 0;
 }
 
 /* Estilos para la lista de asignaturas */
 ion-list {
   background-color: transparent;
+<<<<<<< HEAD
   padding: 10px;
   max-width: 350px;
   margin: 10px auto;
@@ -59,21 +103,43 @@ ion-list {
 
 ion-item {
 
+=======
+  padding: 20px;
+  max-width: 350px;
+  margin: 20px auto;
+}
+
+ion-item {
+<<<<<<< HEAD
+  
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
   --background: #042d54c9 ;
   --color: #ffffff;
   margin-bottom: 10px;
   border-radius: 5px;
   font-weight: bold;
+<<<<<<< HEAD
   font-size: 25px;
   padding: 5px;
   background-color: #042d54 ;
   box-shadow: 0 2px 8px #042d54;
 
+=======
+  border: 2px solid #042d54;
+  font-size: 25px;
+  padding: 5px;
+  background-color: #042d54 ;
+  
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
 }
 .button-container {
   display: flex;
   justify-content: center;  /* Centra horizontalmente */
+<<<<<<< HEAD
   align-items: center;     /* Centra verticalmente */         /* Altura del contenedor al 100% de la vista */
+=======
+  align-items: center;      /* Centra verticalmente */         /* Altura del contenedor al 100% de la vista */
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
 }
 /* Estilos para los botones */
 ion-button {
@@ -82,11 +148,35 @@ ion-button {
   --border-radius: 5px;
   --padding-start: 15px;
   --padding-end: 15px;
+<<<<<<< HEAD
   font-weight: bold;
   font-size: 13px;
   border-radius: 5px;
   box-shadow: 0 2px 6px rgb(240, 200, 21);
   text-transform: uppercase;
+=======
+  --border: 2px solid rgba(224, 186, 14, 0.877);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px;
+  background-color: rgba(224, 186, 14, 0.877) ;
+  border-radius: 5px;
+=======
+  --background: #042d54c9;
+  --color: #fffcd2;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Estilos para los botones */
+ion-button {
+  --background: #042d54c9;
+  --color: rgb(240, 200, 21);
+  --border-radius: 5px;
+  --padding-start: 15px;
+  --padding-end: 15px;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
 }
 
 /* Estilos para el encabezado y pie de página */
@@ -103,4 +193,8 @@ ion-title {
 ion-footer ion-toolbar {
   --padding-top: 10px;
   --padding-bottom: 10px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb

@@ -12,7 +12,14 @@ export class AlumnoComponent implements OnInit {
   nombreAlumno: string = '';
   email: string = '';
   telefono: string = '';
+<<<<<<< HEAD
   rol: string='';
+=======
+<<<<<<< HEAD
+  rol: string='';
+=======
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
 
   constructor(private authService: AuthService, private router: Router) {}
 
@@ -22,12 +29,24 @@ export class AlumnoComponent implements OnInit {
         this.nombreAlumno = usuario.nombreCompleto;
         this.email = usuario.email;
         this.telefono = usuario.telefono;
+<<<<<<< HEAD
         this.rol= usuario.rol;
       }
     });
   }
 
 
+=======
+<<<<<<< HEAD
+        this.rol= usuario.rol;
+=======
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+      }
+    });
+  }
+    
+
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
   logout() {
     this.authService.logout();
     this.router.navigate(['/login']); // Llamamos al método de cerrar sesión del servicio de autenticación

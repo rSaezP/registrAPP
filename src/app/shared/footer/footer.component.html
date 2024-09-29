@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="ion-no-border">
   <div class="footer-content">
     <img src="assets/img/logo.png" alt="Logo Acreditación" class="acreditacion-logo">
@@ -8,3 +9,42 @@
 
   </div>
 </div>
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+
+  <p><a routerLink="/">home</a></p>
+  <p><a routerLink="/login">Iniciar Sesión</a></p>
+  <p><a routerLink="/recuperar-contrasenia">Recuperar Contraseña</a></p>
+=======
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+<footer>
+
+  <nav *ngIf="isAuthenticated">
+    <img src="assets/img/logo3.png" alt="Logo">
+    <ul>
+      <li *ngIf="isAuthenticated">
+        <a (click)="navigateToInicio()">
+          {{ rol === 'docente' ? 'Inicio Docente' : 'Inicio Alumno' }}
+        </a>
+      </li>
+      <li *ngIf="rol === 'docente' && isAuthenticated">
+        <a [routerLink]="['/detalle-asignatura-docente']">Asignaturas Docente</a>
+      </li>
+      <li *ngIf="rol === 'alumno' && isAuthenticated">
+        <a [routerLink]="['/detalle-asignatura-alumno']">Asignaturas Alumno</a>
+      </li>
+      <li *ngIf="isAuthenticated">
+        <a (click)="logout()">Cerrar Sesión</a>
+      </li>
+    </ul>
+  </nav>
+<<<<<<< HEAD
+</footer>
+=======
+</footer>
+>>>>>>> master
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb

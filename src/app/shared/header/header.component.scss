@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.cabecera {
+  display: flex;          /* Habilita Flexbox en el contenedor */
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+  align-items: center;   /* Alinea verticalmente los elementos en el centro */
+  padding: 0 20px;       /* Añade algo de espacio en los laterales (opcional) */
+  background-color: #b9b8b8; /* Fondo opcional para visibilidad */
+}
+
+.cabecera h1 {
+  margin: 0; /* Elimina el margen predeterminado del h1 */
+  color: black;
+}
+
+.cabecera img {
+  height: 40px; /* Ajusta la altura del logo según sea necesario */
+  width: auto;  /* Mantiene la proporción del logo */
+}
+=======
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
 img {
     width: 150px; /* Ajusta el ancho según lo que necesites */
     height: auto; /* Mantiene la proporción del logo */
@@ -12,8 +37,21 @@ img {
     cursor: pointer;           /* Cambia el cursor al pasar sobre el botón */
     font-size: 14px;           /* Tamaño del texto */
     transition: background-color 0.3s ease; /* Animación suave al pasar el ratón */
+<<<<<<< HEAD
 
 }
 .logout-btn:hover {
     background-color: #1429a0; /* Color de fondo al hacer hover */
 }
+=======
+    
+}
+.logout-btn:hover {
+    background-color: #1429a0; /* Color de fondo al hacer hover */
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> master
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb

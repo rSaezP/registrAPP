@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+ion-item {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.recover-button {
+  background-color: #3880ff;
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+}
+
+ion-content {
+  --background: #f0f0f5;
+}
+
+ion-input {
+  --placeholder-color: #888;
+}

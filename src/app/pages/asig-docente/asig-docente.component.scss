@@ -1,4 +1,5 @@
 ion-content {
+<<<<<<< HEAD
     --background: #ffffff;
   }
 
@@ -36,17 +37,62 @@ ion-content {
   .detalle-asignatura h2,
   .detalle-asignatura p {
     color: #042d54;
+=======
+<<<<<<< HEAD
+    --background: #ffffff;
+=======
+    --background: #fffcd2;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+  }
+  
+  .detalle-asignatura {
+    text-align: center;
+<<<<<<< HEAD
+    margin-top: 80px;
+    background-color: #042d54;
+=======
+    margin-top: 20px;
+    background-color: #042d54c9;
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
+    border: 3px  #042d54c9;
+    --background: #042d54c9 ;
+    --color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 5px;    
+=======
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+  }
+  
+  .detalle-asignatura h2,
+  .detalle-asignatura p {
+<<<<<<< HEAD
+    color: #ffffff;
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
     margin: 5px 0;
     font-weight: bold;
     font-size: x-large;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
   ion-button {
     --background: rgb(240, 200, 21);
     --color: #042d54c9;
     --border-radius: 5px;
     --padding-start: 15px;
     --padding-end: 15px;
+<<<<<<< HEAD
     font-weight: bold;
     font-size: 13px;
     border-radius: 5px;
@@ -65,6 +111,28 @@ ion-content {
 .button-container-2 {
   flex: 1;
   margin: 5px;
+=======
+    --border: 2px solid rgba(224, 186, 14, 0.877);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+    background-color: rgba(224, 186, 14, 0.877) ;
+    border-radius: 5px;
+  }
+  .buttons-row {
+    display: flex;                  
+    justify-content: space-between;
+    align-items: center;          
+    width: 80%;                   
+    max-width: 350px;             
+    margin: 0 auto;        
+    margin-top: 40px;       
+  }
+  .button-container,
+.button-container-2 {
+  flex: 1;                       
+  margin: 5px;                  
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
 }
 .imagen-asignatura {
   display: flex;
@@ -78,3 +146,20 @@ ion-content {
   width: 200px;            /* Mantiene la proporción de la imagen */
   border-radius: 8px;      /* Añade bordes redondeados si lo deseas */
 }
+<<<<<<< HEAD
+=======
+=======
+    color: #fffcd2;
+    margin: 5px 0;
+  }
+  
+  ion-button {
+    --background: #042d54c9;
+    --color: rgb(240, 200, 21);
+    --border-radius: 5px;
+    --padding-start: 15px;
+    --padding-end: 15px;
+  }
+ 
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb

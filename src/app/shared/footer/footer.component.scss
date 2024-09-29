@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 app-toolbar {
   --background: #042d54c9;
   --color: #fffcd2;
@@ -43,4 +44,17 @@ app-footer ion-toolbar {
 
 .Texto-Footer-central {
   text-align: center;
+=======
+.pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #f8f8f8;
+}
+
+.pie h1 {
+    margin: 0;
+    color: black;
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
 }

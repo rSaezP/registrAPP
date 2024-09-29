@@ -8,15 +8,30 @@
 
 <ion-content class="ion-padding">
   <div class="alumno-info">
+<<<<<<< HEAD
     <img src="assets/img/instructor.png" alt="Imagen de perfil" class="avatar">
     <h2>{{ nombreDocente }}</h2>
     <p>Rol: {{ rol }}</p>
+=======
+<<<<<<< HEAD
+    <img src="assets/img/docente.jpg" alt="Imagen de perfil" class="avatar">
+    <h2>{{ nombreDocente }}</h2>
+    <p>Rol: {{ rol }}</p>
+=======
+    <img src="assets/img/iconodocente.png" alt="Imagen de perfil" class="avatar">
+    <h2>{{ nombreDocente }}</h2>
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
     <p>Email: {{ email }}</p>
     <p>Teléfono: {{ telefono }}</p>
   </div>
 
   <ion-list>
     <ion-item
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
       *ngFor="let asignatura of ['Programación Web', 'Aplicaciones Móviles', 'Calidad de Software', 'Arquitectura de SW']"
       (click)="irADetalle(asignatura)">
       <ion-label>{{ asignatura }}</ion-label>
@@ -25,8 +40,23 @@
   <div class="button-container">
     <ion-button (click)="logout()">Cerrar sesión</ion-button>
   </div>
+<<<<<<< HEAD
 </ion-content>
 
 <app-footer>
 
 </app-footer>
+=======
+=======
+      *ngFor="let asignatura of ['Programación Web', 'Programación APP Móviles', 'Calidad de Software', 'Arquitectura de Software']"
+      (click)="irADetalle(asignatura)">
+      <ion-label>{{ asignatura }}</ion-label>
+    </ion-item>
+    <ion-button (click)="logout()">Cerrar sesión</ion-button>
+  </ion-list>
+
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+  <ion-footer>
+  </ion-footer>
+</ion-content>
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb

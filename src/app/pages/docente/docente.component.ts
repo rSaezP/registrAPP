@@ -12,7 +12,14 @@ export class DocenteComponent implements OnInit {
   nombreDocente: string = '';
   email: string = '';
   telefono: string = '';
+<<<<<<< HEAD
   rol: string = '';
+=======
+<<<<<<< HEAD
+  rol: string = '';
+=======
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
 
   constructor(private authService: AuthService,  private router: Router) {}
 
@@ -22,7 +29,14 @@ export class DocenteComponent implements OnInit {
         this.nombreDocente = usuario.nombreCompleto;
         this.email = usuario.email;
         this.telefono = usuario.telefono;
+<<<<<<< HEAD
         this.rol = usuario.rol;
+=======
+<<<<<<< HEAD
+        this.rol = usuario.rol;
+=======
+>>>>>>> 97ec2fe628058363aab92a99f65762d4beaf4893
+>>>>>>> e3e060ae0ffed17be41e8e1d5740816d2a6cdadb
       }
     });
   }
