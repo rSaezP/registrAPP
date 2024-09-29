@@ -1,3 +1,22 @@
-<p>
-  footer works!
-</p>
+<footer>
+
+  <nav *ngIf="isAuthenticated">
+    <img src="assets/img/logo3.png" alt="Logo">
+    <ul>
+      <li *ngIf="isAuthenticated">
+        <a (click)="navigateToInicio()">
+          {{ rol === 'docente' ? 'Inicio Docente' : 'Inicio Alumno' }}
+        </a>
+      </li>
+      <li *ngIf="rol === 'docente' && isAuthenticated">
+        <a [routerLink]="['/detalle-asignatura-docente']">Asignaturas Docente</a>
+      </li>
+      <li *ngIf="rol === 'alumno' && isAuthenticated">
+        <a [routerLink]="['/detalle-asignatura-alumno']">Asignaturas Alumno</a>
+      </li>
+      <li *ngIf="isAuthenticated">
+        <a (click)="logout()">Cerrar Sesión</a>
+      </li>
+    </ul>
+  </nav>
+</footer>
